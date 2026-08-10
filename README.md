@@ -1,5 +1,7 @@
 # Quantium Retail Analytics
 
+[![Tests](https://github.com/fetachino/quantium-retail-analytics/actions/workflows/tests.yml/badge.svg)](https://github.com/fetachino/quantium-retail-analytics/actions/workflows/tests.yml)
+
 End-to-end retail analytics case study covering customer segmentation, category strategy, matched-control experimentation, uplift testing, and executive communication.
 
 This project was completed as part of the Quantium Data Analytics virtual experience. It demonstrates how transaction data can be translated into practical recommendations for a category manager—not simply summarized in charts.
@@ -110,6 +112,16 @@ Store 86 illustrates why uplift should not be judged from averages alone: custom
    ```
 
 The source datasets are intentionally excluded because they are supplied for simulation use and should not be redistributed.
+
+## Testing
+
+The unit suite validates brand normalization, report formatting, store-similarity metrics, and matched-control selection using synthetic data. It does not require the proprietary simulation datasets.
+
+```bash
+python -m pytest
+```
+
+GitHub Actions runs the suite on Python 3.11 and 3.12 for every pull request and push to `main`.
 
 ## Analytical considerations
 
