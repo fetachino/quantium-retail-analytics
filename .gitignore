@@ -1,0 +1,27 @@
+# Proprietary/source data
+QVI_data.csv
+QVI_purchase_behaviour.csv
+QVI_transaction_data.xlsx
+
+# Generated and temporary assets
+quantium_charts/
+task2_charts/
+task3_assets/
+template_render*/
+task3_render*/
+task3_final_render*/
+task3_final_qa*/
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
