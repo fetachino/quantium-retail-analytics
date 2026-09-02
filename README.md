@@ -60,6 +60,10 @@ The analysis identified three commercially actionable findings:
 
 Store 86 illustrates why uplift should not be judged from averages alone: customer growth was positive, but sales uplift was not consistently material across the trial months.
 
+![Trial-store sales and customer uplift summary](docs/images/trial-uplift-summary.png)
+
+This chart is reconstructed from the selected results above. Original presentation slides are not used as README images because their classification footer makes them unsuitable for public portfolio display.
+
 ## Deliverables
 
 - [Task 1: customer analytics report](Quantium_Task1_Initial_Findings_and_Code.pdf)
