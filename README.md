@@ -6,6 +6,20 @@ End-to-end retail analytics case study covering customer segmentation, category 
 
 This project was completed as part of the Quantium Data Analytics virtual experience. It demonstrates how transaction data can be translated into practical recommendations for a category manager—not simply summarized in charts.
 
+## Analytics workflow
+
+```mermaid
+flowchart LR
+    A["Transaction and customer data"] --> B["Clean and validate"]
+    B --> C["Customer segmentation"]
+    B --> D["Monthly store metrics"]
+    C --> E["Category recommendations"]
+    D --> F["Matched control selection"]
+    F --> G["Trial uplift evaluation"]
+    E --> H["Executive recommendation"]
+    G --> H
+```
+
 ## Executive summary
 
 The analysis identified three commercially actionable findings:
