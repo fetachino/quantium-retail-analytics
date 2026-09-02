@@ -4,7 +4,7 @@
 
 End-to-end retail analytics case study covering customer segmentation, category strategy, matched-control experimentation, uplift testing, and executive communication.
 
-This project was completed as part of the Quantium Data Analytics virtual experience. It demonstrates how transaction data can be translated into practical recommendations for a category manager—not simply summarized in charts.
+This project was completed as part of the Quantium Data Analytics virtual experience. It demonstrates how transaction data can be translated into practical recommendations for a category manager - not simply summarized in charts.
 
 ## Analytics workflow
 
@@ -55,7 +55,7 @@ The analysis identified three commercially actionable findings:
 - Restricted controls to stores operating throughout the full observation window.
 - Ranked controls using an equal-weight composite of Pearson correlation and month-normalized magnitude similarity.
 - Scaled controls to each trial store's pre-trial level.
-- Evaluated February–April 2019 uplift against pre-trial variation and a commercial-materiality threshold.
+- Evaluated February-April 2019 uplift against pre-trial variation and a commercial-materiality threshold.
 - Diagnosed whether results were driven by customer growth or purchase frequency.
 
 ### 3. Commercial application
@@ -77,6 +77,14 @@ Store 86 illustrates why uplift should not be judged from averages alone: custom
 ![Trial-store sales and customer uplift summary](docs/images/trial-uplift-summary.png)
 
 This chart is reconstructed from the selected results above. Original presentation slides are not used as README images because their classification footer makes them unsuitable for public portfolio display.
+
+![Matched-control quality and rollout decisions](docs/images/control-quality-summary.png)
+
+This second visual summarizes the committed `QVI_trial_results.csv` control scores and recommendations. Similarity is treated as a diagnostic rather than proof of causation.
+
+![Matched-control quality and rollout decisions](docs/images/control-quality-summary.png)
+
+This second visual summarizes the committed `QVI_trial_results.csv` control scores and recommendations. Similarity is treated as a diagnostic rather than proof of causation.
 
 ## Deliverables
 
